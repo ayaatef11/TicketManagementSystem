@@ -1,0 +1,45 @@
+﻿@model TicketViewModelResponse
+
+@{
+    ViewData["Title"] = $"Ticket Details - #{Model.Id}";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (Model != null)
+{
+    <div class="card shadow-sm p-4">
+        <dl class="row">
+           @*  <dt class="col-sm-3">Issue Type</dt>
+            <dd class="col-sm-9">@Model.IssueType.IssueTypeName</dd>  *@
+
+            <dt class="col-sm-3">Priority</dt>
+            <dd class="col-sm-9">@Model.Priority</dd>
+
+            <dt class="col-sm-3">Status</dt>
+            <dd class="col-sm-9">@Model.Status</dd>
+
+            <dt class="col-sm-3">Created Date</dt>
+            <dd class="col-sm-9">@Model.CreatedDate.ToString("f")</dd>
+
+            <dt class="col-sm-3">Full Name</dt>
+            <dd class="col-sm-9">@Model.FullName</dd>
+
+            <dt class="col-sm-3">Mobile Number</dt>
+            <dd class="col-sm-9">@Model.MobileNumber</dd>
+
+            <dt class="col-sm-3">Email</dt>
+            <dd class="col-sm-9">@Model.Email</dd>
+
+            <dt class="col-sm-3">Description</dt>
+            <dd class="col-sm-9">@Model.Description</dd>
+        </dl>
+        <a asp-action="SelectAllTickets" class="btn btn-secondary mt-3">Back to All Tickets</a>
+    </div>
+}
+else
+{
+    <div class="alert alert-warning">
+        Ticket not found.
+    </div>
+}

@@ -1,0 +1,97 @@
+﻿@model List<TicketViewModelResponse>
+
+@{
+    ViewData["Title"] = "All Tickets";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="card mb-4">
+    <div class="card-header">
+        <h5>Filter Tickets</h5>
+    </div>
+    <div class="card-body">
+        <form asp-action="FilterTickets" asp-controller="Ticket" method="get">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label asp-for="@(new TicketFilterViewModelRequest().IssueTypeId)" class="control-label"></label>
+                        <select asp-for="@(new TicketFilterViewModelRequest().IssueTypeId)" asp-items="ViewBag.IssueTypeList" class="form-control">
+                            <option value="">-- Select Issue Type --</option>
+                        </select>
+                        <span asp-validation-for="@(new TicketFilterViewModelRequest().IssueTypeId)" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="form-group">
+                        <label asp-for="@(new TicketFilterViewModelRequest().Priority)"></label>
+                        <select asp-for="@(new TicketFilterViewModelRequest().Priority)"
+                                asp-items="Html.GetEnumSelectList<Priority>()"
+                                class="form-control">
+                            <option value="">All Priorities</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-md-2 align-self-end">
+                    <button type="submit" class="btn btn-primary w-100">
+                        <i class="fas fa-filter"></i> Filter
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+ @if (Model != null && Model.Any())
+{
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Ticket Id</th>
+                <th>Customer Name</th>
+                <th>Issue Type</th>
+                <th>Priority</th>
+                <th>Status</th>
+                <th>Created Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                <tr>
+                    <td>@Model[i].Id</td> 
+                    <td>@Model[i].FullName</td>
+                    <!-- it will be changed later -->
+                    <td>name</td>
+                    <td>@Model[i].Priority</td>
+                    <td>@Model[i].Status</td>
+                    <td>@Model[i].CreatedDate.ToString("g")</td>
+                 @*    <td>@Model[i].Email</td>
+                    <td>@Model[i].MobileNumber</td>
+                    <td>@Model[i].Description</td> *@
+                    <td>
+                        <!-- Add this link -->
+                        <a asp-action="SelectSingleTicket"
+                           asp-route-id="@Model[i].Id"
+                           class="btn btn-warning btn-sm me-1">
+                            View 
+                        </a>
+                        <a asp-action="UpdateTicket"
+                           asp-route-id="@Model[i].Id"
+                           class="btn btn-info btn-sm">
+                            Edit
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-info">
+        No tickets found.
+    </div>
+}

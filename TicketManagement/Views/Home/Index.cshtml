@@ -1,0 +1,97 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Ticket Management System</p>
+</div>
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+@{
+    ViewData["Title"] = "Ticket Management System";
+}
+<style>
+    body {
+        background-image: url('background.png');
+        background-size: cover;  
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        min-height: 100vh;
+    }
+
+    .container {
+        background-color: rgba(255, 255, 255, 0.9);  
+        border-radius: 15px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+</style>
+
+<div class="container mt-5">
+    <div class="jumbotron text-center bg-warning text-white rounded-lg shadow">
+        <h1 class="display-4"> Ticket Management System</h1>
+        <p class="lead">Manage your tickets efficiently with our robust application</p>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow">
+                <div class="card-body text-center">
+                    <h2 class="card-title"><i class="fas fa-plus-circle fa-3x text-primary"></i></h2>
+                    <h4 class="card-subtitle mb-2">Create New Ticket</h4>
+                    <p class="card-text">Submit a new support request</p>
+                    <a asp-controller="Ticket" asp-action="InsertTicket" class="btn btn-warning btn-lg">
+                        Create New Ticket
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow">
+                <div class="card-body text-center">
+                    <h2 class="card-title"><i class="fas fa-list-alt fa-3x text-success"></i></h2>
+                    <h4 class="card-subtitle mb-2">View Tickets</h4>
+                    <p class="card-text">Browse existing support tickets</p>
+                    <a asp-controller="Ticket" asp-action="SelectAllTickets" class="btn btn-warning btn-lg">
+                        View Tickets
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow">
+                <div class="card-body text-center">
+                    <h2 class="card-title"><i class="fas fa-search fa-3x text-info"></i></h2>
+                    <h4 class="card-subtitle mb-2">Search Tickets</h4>
+                    <p class="card-text">Find specific tickets</p>
+                    <form asp-controller="Ticket" asp-action="SearchTicket" method="get" class="form-inline justify-content-center">
+                        <div class="input-group">
+                            <input type="text" name="searchTerm" class="form-control" placeholder="Search...">
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-info">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+   
+    </div>
+
+
+</div>
+
+
+@section Scripts {
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+}

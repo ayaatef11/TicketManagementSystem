@@ -1,0 +1,98 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\demos\\TicketManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB12F949-4947-4600-A952-30BB9973FAEE}|..\\TicketManagement.Application\\TicketManagement.BLL.csproj|f:\\demos\\ticketmanagement.application\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB12F949-4947-4600-A952-30BB9973FAEE}|..\\TicketManagement.Application\\TicketManagement.BLL.csproj|f:\\demos\\ticketmanagement.application\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140E5CBD-4FD6-4CC0-9EF4-8C066A8EAF61}|..\\TicketManagement.Core\\TicketManagement.DAL.csproj|f:\\demos\\ticketmanagement.core\\data\\configurations\\ticketconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "F:\\demos\\TicketManagement.Application\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\TicketManagement.Application\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "F:\\demos\\TicketManagement.Application\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "..\\TicketManagement.Application\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T08:30:33.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "F:\\demos\\TicketManagement.Application\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\TicketManagement.Application\\Repositories\\GenericRepository.cs",
+              "ToolTip": "F:\\demos\\TicketManagement.Application\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "..\\TicketManagement.Application\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T08:28:14.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TicketConfigurations.cs",
+              "DocumentMoniker": "F:\\demos\\TicketManagement.Core\\Data\\Configurations\\TicketConfigurations.cs",
+              "RelativeDocumentMoniker": "..\\TicketManagement.Core\\Data\\Configurations\\TicketConfigurations.cs",
+              "ToolTip": "F:\\demos\\TicketManagement.Core\\Data\\Configurations\\TicketConfigurations.cs",
+              "RelativeToolTip": "..\\TicketManagement.Core\\Data\\Configurations\\TicketConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T08:25:01.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 185,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

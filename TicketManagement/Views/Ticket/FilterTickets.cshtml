@@ -1,0 +1,65 @@
+﻿@model List<TicketViewModelResponse>
+
+@{
+    ViewData["Title"] = "Filtered Ticket Details";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Ticket Id</th>
+                <th>Customer Name</th>
+                <th>Issue Type</th>
+                <th>Priority</th>
+                <th>Status</th>
+                <th>Created Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                <tr>
+                    <td>@Model[i].Id</td>
+                    <td>@Model[i].FullName</td>
+                    <!-- it will be changed later -->
+                    <td>name</td>
+                    <td>@Model[i].Priority</td>
+                    <td>@Model[i].Status</td>
+                    <td>@Model[i].CreatedDate.ToString("g")</td>
+                    @*    <td>@Model[i].Email</td>
+                    <td>@Model[i].MobileNumber</td>
+                    <td>@Model[i].Description</td> *@
+                    <td>
+                        <!-- Add this link -->
+                        <a asp-action="SelectSingleTicket"
+                           asp-route-id="@Model[i].Id"
+                           class="btn btn-warning btn-sm me-1">
+                            View
+                        </a>
+                        <a asp-action="UpdateTicket"
+                           asp-route-id="@Model[i].Id"
+                           class="btn btn-info btn-sm">
+                            Edit
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-info">
+        No tickets found.
+    </div>
+}
+
+ 
+
