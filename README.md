@@ -42,5 +42,11 @@
 
 ## 🗃️ Database Diagram
 
-> _You can add ERD screenshots or diagrams if available_
+![ERD](./assets/01.png)
+![ERD](./assets/02.png)
+![ERD](./assets/03.png)
+![ERD](./assets/04.png)
+![ERD](./assets/05.png)
+![ERD](./assets/06.png)
+![ERD](./assets/07.png)
 
