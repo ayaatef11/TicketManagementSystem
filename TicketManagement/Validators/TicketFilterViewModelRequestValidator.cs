@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using TicketManagement.ViewModels.Requests;
 
-namespace TicketManagement.Validators.Requests
+namespace TicketManagement.Validators
 {
     public class TicketFilterViewModelRequestValidator:AbstractValidator<TicketFilterViewModelRequest>
     {

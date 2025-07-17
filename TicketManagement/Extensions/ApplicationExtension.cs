@@ -22,8 +22,6 @@ namespace TicketManagement.Extensions
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
                    
             });
-            //services.AddAutoMapper(typeof(TicketMapping));
-
             services.AddScoped<ITicketsService, TicketsService>();
             services.AddScoped<IIssueTypesService, IssueTypesService>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();

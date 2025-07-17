@@ -6979,11 +6979,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\demos\\TicketManagement.Application\\TicketManagement.BLL.csproj",
+      "projectUniqueName": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement.Application\\TicketManagement.BLL.csproj",
       "projectName": "TicketManagement.BLL",
-      "projectPath": "F:\\demos\\TicketManagement.Application\\TicketManagement.BLL.csproj",
+      "projectPath": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement.Application\\TicketManagement.BLL.csproj",
       "packagesPath": "C:\\Users\\Aya Atef\\.nuget\\packages\\",
-      "outputPath": "F:\\demos\\TicketManagement.Application\\obj\\",
+      "outputPath": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7005,8 +7005,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\demos\\TicketManagement.Core\\TicketManagement.DAL.csproj": {
-              "projectPath": "F:\\demos\\TicketManagement.Core\\TicketManagement.DAL.csproj"
+            "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement.Core\\TicketManagement.DAL.csproj": {
+              "projectPath": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement.Core\\TicketManagement.DAL.csproj"
             }
           }
         }

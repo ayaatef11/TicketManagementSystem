@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dx+xAwQEYnI=",
+  "dgSpecHash": "F6jo2Z4koEM=",
   "success": true,
-  "projectFilePath": "F:\\demos\\TicketManagement\\TicketManagement.csproj",
+  "projectFilePath": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\TicketManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aya Atef\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Aya Atef\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using TicketManagement.DAL.Enums;
 using TicketManagement.DAL.Models;
 

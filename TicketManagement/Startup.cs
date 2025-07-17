@@ -1,20 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
-using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
-using TicketManagement.BLL.Interfaces.Services;
-using TicketManagement.BLL.Services;
 using TicketManagement.Extensions;
 
 namespace TicketManagement
@@ -30,7 +20,8 @@ namespace TicketManagement
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews()
-           .AddFluentValidation(config => {
+           .AddFluentValidation(config =>
+           {
                // Automatically register validators from assemblies
                config.RegisterValidatorsFromAssemblies(new[]
                {
@@ -43,16 +34,8 @@ namespace TicketManagement
            });
             services.AddApplicationServices(Configuration);
             services.AddAutoMapper(typeof(Startup));
-
-    //        var assemblies = new[]
-    //        {
-    //Assembly.Load("TicketManagement.DAL"),
-    //Assembly.Load("TicketManagement")
-    //        };
-
-    //        services.AddValidatorsFromAssemblies(assemblies);
-            //services.AddValidatorsFromAssemblies(Assembly.GetExecutingAssembly());
         }
+
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())

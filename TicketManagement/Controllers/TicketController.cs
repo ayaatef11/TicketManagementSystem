@@ -8,7 +8,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TicketManagement.BLL.Interfaces.Services;
-using TicketManagement.BLL.Services;
 using TicketManagement.DAL.DTOS;
 using TicketManagement.DAL.Enums;
 using TicketManagement.DAL.Parameters;
@@ -39,10 +38,10 @@ namespace TicketManagement.Controllers
         
         public async Task< IActionResult> FilterTickets(TicketFilterViewModelRequest request)
         {
-            if (!ModelState.IsValid)
-            {
-                return View(request); 
-            }
+            //if (!ModelState.IsValid)
+            //{
+            //    return View(request); 
+            //}
             try
             {
                 var parameters = _mapper.Map<TicketFilterParameters>(request);
@@ -103,11 +102,6 @@ namespace TicketManagement.Controllers
 
         public async Task<IActionResult> InsertTicket(TicketViewModelRequest request)
         {
-            if (!ModelState.IsValid)
-            {
-                TicketViewModelResponse response = _mapper.Map<TicketViewModelResponse>(request);
-                return View(response); 
-            }
             try
             {
                 TicketDto ticket = _mapper.Map<TicketDto>(request);
@@ -246,11 +240,11 @@ namespace TicketManagement.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> UpdateTicket(TicketViewModelRequest request)
         {
-            if (!ModelState.IsValid)
-            {
-var response=_mapper.Map<TicketViewModelResponse>(request);
-                return View(response);  
-            }
+//            if (!ModelState.IsValid)
+//            {
+//var response=_mapper.Map<TicketViewModelResponse>(request);
+//                return View(response);  
+//            }
             try
             {
                 var parameters = _mapper.Map<TicketDto>(request);

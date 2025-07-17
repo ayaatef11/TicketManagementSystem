@@ -1,15 +1,112 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\demos\\TicketManagement\\",
+  "WorkspaceRootPath": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB12F949-4947-4600-A952-30BB9973FAEE}|..\\TicketManagement.Application\\TicketManagement.BLL.csproj|f:\\demos\\ticketmanagement.application\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB12F949-4947-4600-A952-30BB9973FAEE}|..\\TicketManagement.Application\\TicketManagement.BLL.csproj|f:\\demos\\ticketmanagement.application\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{140E5CBD-4FD6-4CC0-9EF4-8C066A8EAF61}|..\\TicketManagement.Core\\TicketManagement.DAL.csproj|f:\\demos\\ticketmanagement.core\\data\\configurations\\ticketconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\viewmodels\\errors\\ticketerrorresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:viewmodels\\errors\\ticketerrorresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\views\\ticket\\filtertickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:views\\ticket\\filtertickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\viewmodels\\requests\\ticketviewmodelrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:viewmodels\\requests\\ticketviewmodelrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\views\\ticket\\updateticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:views\\ticket\\updateticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\views\\ticket\\selectsingleticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:views\\ticket\\selectsingleticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\views\\ticket\\selectalltickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:views\\ticket\\selectalltickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\views\\ticket\\insertticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:views\\ticket\\insertticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\views\\ticket\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:views\\ticket\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\viewmodels\\errors\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:viewmodels\\errors\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\viewmodels\\responses\\ticketviewmodelresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:viewmodels\\responses\\ticketviewmodelresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\viewmodels\\responses\\ticketissueviewmodelresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:viewmodels\\responses\\ticketissueviewmodelresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\viewmodels\\responses\\issuetypeviewmodelresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:viewmodels\\responses\\issuetypeviewmodelresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\viewmodels\\requests\\ticketinsertviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:viewmodels\\requests\\ticketinsertviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\viewmodels\\requests\\ticketfilterviewmodelrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:viewmodels\\requests\\ticketfilterviewmodelrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\mapping\\ticketmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:mapping\\ticketmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\extensions\\applicationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:extensions\\applicationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\validators\\ticketfilterviewmodelrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:validators\\ticketfilterviewmodelrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\validators\\ticketviewmodelrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:validators\\ticketviewmodelrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|f:\\4-full-stack\\6-ticket-management-system\\ticketmanagement\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1EC708F-7EFF-44E6-90FB-C8A07F62CC99}|TicketManagement.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\demos\\TicketManagement.Application\\Repositories\\GenericRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\demos\\TicketManagement.Core\\Data\\Configurations\\TicketConfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,56 +116,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "F:\\demos\\TicketManagement.Application\\Repositories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "..\\TicketManagement.Application\\Repositories\\UnitOfWork.cs",
-              "ToolTip": "F:\\demos\\TicketManagement.Application\\Repositories\\UnitOfWork.cs",
-              "RelativeToolTip": "..\\TicketManagement.Application\\Repositories\\UnitOfWork.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T08:30:33.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "F:\\demos\\TicketManagement.Application\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "..\\TicketManagement.Application\\Repositories\\GenericRepository.cs",
-              "ToolTip": "F:\\demos\\TicketManagement.Application\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "..\\TicketManagement.Application\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T08:28:14.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TicketConfigurations.cs",
-              "DocumentMoniker": "F:\\demos\\TicketManagement.Core\\Data\\Configurations\\TicketConfigurations.cs",
-              "RelativeDocumentMoniker": "..\\TicketManagement.Core\\Data\\Configurations\\TicketConfigurations.cs",
-              "ToolTip": "F:\\demos\\TicketManagement.Core\\Data\\Configurations\\TicketConfigurations.cs",
-              "RelativeToolTip": "..\\TicketManagement.Core\\Data\\Configurations\\TicketConfigurations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T08:25:01.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 185,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -89,6 +137,341 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-14T12:25:31.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TicketErrorResponseViewModel.cs",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\ViewModels\\Errors\\TicketErrorResponseViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Errors\\TicketErrorResponseViewModel.cs",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\ViewModels\\Errors\\TicketErrorResponseViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Errors\\TicketErrorResponseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T09:45:42.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TicketController.cs",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Controllers\\TicketController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TicketController.cs",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Controllers\\TicketController.cs",
+              "RelativeToolTip": "Controllers\\TicketController.cs",
+              "ViewState": "AgIAACoBAAAAAAAAAAAwwBwBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T09:44:49.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FilterTickets.cshtml",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Views\\Ticket\\FilterTickets.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ticket\\FilterTickets.cshtml",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Views\\Ticket\\FilterTickets.cshtml",
+              "RelativeToolTip": "Views\\Ticket\\FilterTickets.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-05T11:33:55.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TicketViewModelRequest.cs",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\ViewModels\\Requests\\TicketViewModelRequest.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Requests\\TicketViewModelRequest.cs",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\ViewModels\\Requests\\TicketViewModelRequest.cs",
+              "RelativeToolTip": "ViewModels\\Requests\\TicketViewModelRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T09:45:24.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T09:44:39.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SelectAllTickets.cshtml",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Views\\Ticket\\SelectAllTickets.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ticket\\SelectAllTickets.cshtml",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Views\\Ticket\\SelectAllTickets.cshtml",
+              "RelativeToolTip": "Views\\Ticket\\SelectAllTickets.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T09:45:59.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SelectSingleTicket.cshtml",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Views\\Ticket\\SelectSingleTicket.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ticket\\SelectSingleTicket.cshtml",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Views\\Ticket\\SelectSingleTicket.cshtml",
+              "RelativeToolTip": "Views\\Ticket\\SelectSingleTicket.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T09:46:01.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateTicket.cshtml",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Views\\Ticket\\UpdateTicket.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ticket\\UpdateTicket.cshtml",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Views\\Ticket\\UpdateTicket.cshtml",
+              "RelativeToolTip": "Views\\Ticket\\UpdateTicket.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T09:46:07.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAswCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T09:46:17.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T09:46:13.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\ViewModels\\Errors\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Errors\\ErrorViewModel.cs",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\ViewModels\\Errors\\ErrorViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Errors\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T09:45:41.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TicketViewModelResponse.cs",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\ViewModels\\Responses\\TicketViewModelResponse.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Responses\\TicketViewModelResponse.cs",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\ViewModels\\Responses\\TicketViewModelResponse.cs",
+              "RelativeToolTip": "ViewModels\\Responses\\TicketViewModelResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T09:45:33.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Views\\Ticket\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ticket\\Error.cshtml",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Views\\Ticket\\Error.cshtml",
+              "RelativeToolTip": "Views\\Ticket\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-05T11:33:52.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InsertTicket.cshtml",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Views\\Ticket\\InsertTicket.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ticket\\InsertTicket.cshtml",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Views\\Ticket\\InsertTicket.cshtml",
+              "RelativeToolTip": "Views\\Ticket\\InsertTicket.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-05T11:34:02.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TicketIssueViewModelResponse.cs",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\ViewModels\\Responses\\TicketIssueViewModelResponse.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Responses\\TicketIssueViewModelResponse.cs",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\ViewModels\\Responses\\TicketIssueViewModelResponse.cs",
+              "RelativeToolTip": "ViewModels\\Responses\\TicketIssueViewModelResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T09:45:32.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IssueTypeViewModelResponse.cs",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\ViewModels\\Responses\\IssueTypeViewModelResponse.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Responses\\IssueTypeViewModelResponse.cs",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\ViewModels\\Responses\\IssueTypeViewModelResponse.cs",
+              "RelativeToolTip": "ViewModels\\Responses\\IssueTypeViewModelResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T09:45:30.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TicketInsertViewModel.cs",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\ViewModels\\Requests\\TicketInsertViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Requests\\TicketInsertViewModel.cs",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\ViewModels\\Requests\\TicketInsertViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Requests\\TicketInsertViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T09:45:21.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TicketFilterViewModelRequest.cs",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\ViewModels\\Requests\\TicketFilterViewModelRequest.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Requests\\TicketFilterViewModelRequest.cs",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\ViewModels\\Requests\\TicketFilterViewModelRequest.cs",
+              "RelativeToolTip": "ViewModels\\Requests\\TicketFilterViewModelRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T09:45:11.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationExtension.cs",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Extensions\\ApplicationExtension.cs",
+              "RelativeDocumentMoniker": "Extensions\\ApplicationExtension.cs",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Extensions\\ApplicationExtension.cs",
+              "RelativeToolTip": "Extensions\\ApplicationExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T09:44:29.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TicketMapping.cs",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Mapping\\TicketMapping.cs",
+              "RelativeDocumentMoniker": "Mapping\\TicketMapping.cs",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Mapping\\TicketMapping.cs",
+              "RelativeToolTip": "Mapping\\TicketMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T09:44:23.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TicketViewModelRequestValidator.cs",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Validators\\TicketViewModelRequestValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\TicketViewModelRequestValidator.cs",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Validators\\TicketViewModelRequestValidator.cs",
+              "RelativeToolTip": "Validators\\TicketViewModelRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T09:41:02.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TicketFilterViewModelRequestValidator.cs",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Validators\\TicketFilterViewModelRequestValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\TicketFilterViewModelRequestValidator.cs",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Validators\\TicketFilterViewModelRequestValidator.cs",
+              "RelativeToolTip": "Validators\\TicketFilterViewModelRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T09:40:52.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-05T11:33:40.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-05T11:33:20.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "F:\\demos\\TicketManagement.Application\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\demos\\TicketManagement.Application\\Repositories\\GenericRepository.cs",
+              "ToolTip": "F:\\demos\\TicketManagement.Application\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\demos\\TicketManagement.Application\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T08:28:14.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TicketConfigurations.cs",
+              "DocumentMoniker": "F:\\demos\\TicketManagement.Core\\Data\\Configurations\\TicketConfigurations.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\demos\\TicketManagement.Core\\Data\\Configurations\\TicketConfigurations.cs",
+              "ToolTip": "F:\\demos\\TicketManagement.Core\\Data\\Configurations\\TicketConfigurations.cs",
+              "RelativeToolTip": "..\\..\\..\\demos\\TicketManagement.Core\\Data\\Configurations\\TicketConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T08:25:01.833Z"
             }
           ]
         }

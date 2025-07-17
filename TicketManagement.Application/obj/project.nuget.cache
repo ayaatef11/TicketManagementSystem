@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HzioCR1GNhk=",
+  "dgSpecHash": "q0Ku/nZZO0A=",
   "success": true,
-  "projectFilePath": "F:\\demos\\TicketManagement.Application\\TicketManagement.BLL.csproj",
+  "projectFilePath": "F:\\4-Full-stack\\6-Ticket-Management-system\\TicketManagement.Application\\TicketManagement.BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aya Atef\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Aya Atef\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",

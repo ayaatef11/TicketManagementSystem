@@ -1,5 +1,4 @@
-﻿using System;
-using TicketManagement.DAL.Enums;
+﻿using TicketManagement.DAL.Enums;
 using TicketManagement.DAL.Models;
 
 namespace TicketManagement.ViewModels.Requests

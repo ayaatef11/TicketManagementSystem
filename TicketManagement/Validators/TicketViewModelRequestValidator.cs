@@ -2,7 +2,7 @@
 using TicketManagement.ViewModels.Requests;
 using TicketManagement.ViewModels.Responses;
 
-namespace TicketManagement.Validators.Requests
+namespace TicketManagement.Validators
 {
     public class TicketViewModelRequestValidator : AbstractValidator<TicketViewModelRequest>
     {
